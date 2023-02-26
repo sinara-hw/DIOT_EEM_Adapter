@@ -1,0 +1,25 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=Cpcis_connectors_P1_P6.SchDoc
+UniqueIDPath0=\CKZVWWKH
+SheetNumber0=1
+DocumentName1=DIOT_EEM_Adapter.SchDoc
+UniqueIDPath1=
+SheetNumber1=2
+DocumentName2=ID_logic.SchDoc
+UniqueIDPath2=\NYBOEWBR
+SheetNumber2=3
+DocumentName3=IDC_EXT_Connectors.SchDoc
+UniqueIDPath3=\LBHRIGKJ
+SheetNumber3=4
+DocumentName4=IDC_EXT_CPCIS_interconn_map.SchDoc
+UniqueIDPath4=\UAOXFEVK
+SheetNumber4=5
+DocumentName5=Supply.SchDoc
+UniqueIDPath5=\HDCPLWKA
+SheetNumber5=6
+
+

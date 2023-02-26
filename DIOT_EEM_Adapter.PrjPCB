@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Line_15__LVDS
 
 [Preferences]
 PrefsVaultGUID=
@@ -269,14 +270,32 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VKQLLJHS
 
+[Document14]
+DocumentPath=DIOT_EEM_Adapter.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=447B4D39-BF7D-4531-B304-90CFA17154A4
 Description=Line_15__MGT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=3
 Variation1=Designator=R13|UniqueId=\CKZVWWKH\QAKOLVKH|Kind=1|AlternatePart= 
 Variation2=Designator=R15|UniqueId=\CKZVWWKH\QQZZMSFE|Kind=1|AlternatePart= 
+Variation3=Designator=R53|UniqueId=\CKZVWWKH\DLMAKIWN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -284,14 +303,67 @@ UniqueID=7B84541A-C8E8-46E0-B369-45018F8B6BB5
 Description=Line_15__LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=3
 Variation1=Designator=R16|UniqueId=\CKZVWWKH\VASKSEZO|Kind=1|AlternatePart= 
 Variation2=Designator=R14|UniqueId=\CKZVWWKH\EIZQOKKO|Kind=1|AlternatePart= 
+Variation3=Designator=R53|UniqueId=\CKZVWWKH\DLMAKIWN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for DIOT_EEM_Adapter\Design Rule Check - DIOT_EEM_Adapter.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=Address1
+Value=Warsaw University of Technology
+
+[Parameter2]
+Name=Address2
+Value=Nowowiejska 15/19 00-665 Warsaw
+
+[Parameter3]
+Name=Address3
+Value=-
+
+[Parameter4]
+Name=CheckedBy
+Value=-
+
+[Parameter5]
+Name=CheckedDate
+Value=-
+
+[Parameter6]
+Name=Designer
+Value=Marcin Kiepiela
+
+[Parameter7]
+Name=DivGrp
+Value=ISE
+
+[Parameter8]
+Name=DrawnBy
+Value=Marcin Kiepiela
+
+[Parameter9]
+Name=Project1
+Value=DIOT_EEM_Adapter
+
+[Parameter10]
+Name=Projet
+Value=ARTIQ/Sinara/DIOT
+
+[Parameter11]
+Name=SheetTotal
+Value=6
+
+[Parameter12]
+Name=Title
+Value=DIOT_EEM_Adapter
+
+[Parameter13]
+Name=Version
+Value=1.0
 
 [Configuration1]
 Name=Sources
@@ -641,8 +713,8 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Export Project History
-OutputName9=Export Project History
+OutputType9=Project History
+OutputName9=Project History
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
@@ -865,36 +937,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1259,7 +1301,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
