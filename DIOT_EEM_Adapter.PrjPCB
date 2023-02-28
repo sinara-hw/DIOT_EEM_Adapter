@@ -43,7 +43,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Line_15__LVDS
 
 [Preferences]
 PrefsVaultGUID=
@@ -308,10 +307,6 @@ Variation1=Designator=R16|UniqueId=\CKZVWWKH\VASKSEZO|Kind=1|AlternatePart=
 Variation2=Designator=R14|UniqueId=\CKZVWWKH\EIZQOKKO|Kind=1|AlternatePart= 
 Variation3=Designator=R53|UniqueId=\CKZVWWKH\DLMAKIWN|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for DIOT_EEM_Adapter\Design Rule Check - DIOT_EEM_Adapter.html
-DItemRevisionGUID=
 
 [Parameter1]
 Name=Address1
